@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sudarshan KP Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* SECTION */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* PROJECT GRID */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #1d2671;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>👋 Sudarshan KP</h1>
+  <p>Aspiring Software Developer | Passionate about Web & AI</p>
+</header>
+
+<section>
+  <h2>🙋 About Me</h2>
+  <div class="card">
+    I am a passionate developer interested in building web applications and solving real-world problems using technology. I enjoy working with AI-based projects and continuously improving my coding skills.
+  </div>
+</section>
+
+<section>
+  <h2>💻 Skills</h2>
+  <div class="card skills">
+    <span>Java</span>
+    <span>Python</span>
+    <span>SQL</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+</section>
+
+<section>
+  <h2>🚀 Projects</h2>
+  <div class="projects">
+
+    <div class="project">
+      <h3>AI Trip Planner</h3>
+      <p>Plans trips based on budget and preferences.</p>
+      <a href="#" class="btn">View</a>
+    </div>
+
+    <div class="project">
+      <h3>Online Voting System</h3>
+      <p>Secure voting platform with authentication.</p>
+      <a href="#" class="btn">View</a>
+    </div>
+
+    <div class="project">
+      <h3>Missing Person Detection</h3>
+      <p>AI system to identify missing persons.</p>
+      <a href="#" class="btn">View</a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
